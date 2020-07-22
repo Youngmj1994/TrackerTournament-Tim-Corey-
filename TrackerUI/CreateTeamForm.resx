@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TeamNameValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 15.75pt</value>
+  </data>
+  <data name="TeamNameValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 89</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TeamNameValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="TeamNameValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 32</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TeamNameValue.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;TeamNameValue.Name" xml:space="preserve">
+    <value>TeamNameValue</value>
+  </data>
+  <data name="&gt;&gt;TeamNameValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TeamNameValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TeamNameValue.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TeamNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TeamNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 15.75pt</value>
+  </data>
+  <data name="TeamNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 62</value>
+  </data>
+  <data name="TeamNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="TeamNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 23</value>
+  </data>
+  <data name="TeamNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="TeamNameLabel.Text" xml:space="preserve">
+    <value>Team Name</value>
+  </data>
+  <data name="&gt;&gt;TeamNameLabel.Name" xml:space="preserve">
+    <value>TeamNameLabel</value>
+  </data>
+  <data name="&gt;&gt;TeamNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TeamNameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TeamNameLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CreateTeamLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CreateTeamLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="CreateTeamLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 18</value>
+  </data>
+  <data name="CreateTeamLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="CreateTeamLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 30</value>
+  </data>
+  <data name="CreateTeamLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="CreateTeamLabel.Text" xml:space="preserve">
+    <value>Create Team</value>
+  </data>
+  <data name="&gt;&gt;CreateTeamLabel.Name" xml:space="preserve">
+    <value>CreateTeamLabel</value>
+  </data>
+  <data name="&gt;&gt;CreateTeamLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateTeamLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateTeamLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="AddMemberButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="AddMemberButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 15.75pt, style=Bold</value>
+  </data>
+  <data name="AddMemberButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 226</value>
+  </data>
+  <data name="AddMemberButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 43</value>
+  </data>
+  <data name="AddMemberButton.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="AddMemberButton.Text" xml:space="preserve">
+    <value>Add Member</value>
+  </data>
+  <data name="&gt;&gt;AddMemberButton.Name" xml:space="preserve">
+    <value>AddMemberButton</value>
+  </data>
+  <data name="&gt;&gt;AddMemberButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddMemberButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddMemberButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SelectTeamMemberDropdown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 168</value>
+  </data>
+  <data name="SelectTeamMemberDropdown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 31</value>
+  </data>
+  <data name="SelectTeamMemberDropdown.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;SelectTeamMemberDropdown.Name" xml:space="preserve">
+    <value>SelectTeamMemberDropdown</value>
+  </data>
+  <data name="&gt;&gt;SelectTeamMemberDropdown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectTeamMemberDropdown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SelectTeamMemberDropdown.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SelectTeamMemberLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SelectTeamMemberLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 142</value>
+  </data>
+  <data name="SelectTeamMemberLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 23</value>
+  </data>
+  <data name="SelectTeamMemberLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="SelectTeamMemberLabel.Text" xml:space="preserve">
+    <value>Select Team Member</value>
+  </data>
+  <data name="&gt;&gt;SelectTeamMemberLabel.Name" xml:space="preserve">
+    <value>SelectTeamMemberLabel</value>
+  </data>
+  <data name="&gt;&gt;SelectTeamMemberLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectTeamMemberLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SelectTeamMemberLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CreateMemberButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CreateMemberButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 15.75pt, style=Bold</value>
+  </data>
+  <data name="CreateMemberButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CreateMemberButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 236</value>
+  </data>
+  <data name="CreateMemberButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 39</value>
+  </data>
+  <data name="CreateMemberButton.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="CreateMemberButton.Text" xml:space="preserve">
+    <value>Create Member</value>
+  </data>
+  <data name="&gt;&gt;CreateMemberButton.Name" xml:space="preserve">
+    <value>CreateMemberButton</value>
+  </data>
+  <data name="&gt;&gt;CreateMemberButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateMemberButton.Parent" xml:space="preserve">
+    <value>AddNewMemberBox</value>
+  </data>
+  <data name="&gt;&gt;CreateMemberButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CellphoneValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 183</value>
+  </data>
+  <data name="CellphoneValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 32</value>
+  </data>
+  <data name="CellphoneValue.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;CellphoneValue.Name" xml:space="preserve">
+    <value>CellphoneValue</value>
+  </data>
+  <data name="&gt;&gt;CellphoneValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CellphoneValue.Parent" xml:space="preserve">
+    <value>AddNewMemberBox</value>
+  </data>
+  <data name="&gt;&gt;CellphoneValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CellphoneLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CellphoneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CellphoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 186</value>
+  </data>
+  <data name="CellphoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="CellphoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="CellphoneLabel.Text" xml:space="preserve">
+    <value>Cellphone</value>
+  </data>
+  <data name="&gt;&gt;CellphoneLabel.Name" xml:space="preserve">
+    <value>CellphoneLabel</value>
+  </data>
+  <data name="&gt;&gt;CellphoneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CellphoneLabel.Parent" xml:space="preserve">
+    <value>AddNewMemberBox</value>
+  </data>
+  <data name="&gt;&gt;CellphoneLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EmailValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 134</value>
+  </data>
+  <data name="EmailValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 32</value>
+  </data>
+  <data name="EmailValue.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;EmailValue.Name" xml:space="preserve">
+    <value>EmailValue</value>
+  </data>
+  <data name="&gt;&gt;EmailValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailValue.Parent" xml:space="preserve">
+    <value>AddNewMemberBox</value>
+  </data>
+  <data name="&gt;&gt;EmailValue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EmailLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EmailLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EmailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 137</value>
+  </data>
+  <data name="EmailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="EmailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="EmailLabel.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Name" xml:space="preserve">
+    <value>EmailLabel</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Parent" xml:space="preserve">
+    <value>AddNewMemberBox</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LastNameValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 86</value>
+  </data>
+  <data name="LastNameValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 32</value>
+  </data>
+  <data name="LastNameValue.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LastNameValue.Name" xml:space="preserve">
+    <value>LastNameValue</value>
+  </data>
+  <data name="&gt;&gt;LastNameValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastNameValue.Parent" xml:space="preserve">
+    <value>AddNewMemberBox</value>
+  </data>
+  <data name="&gt;&gt;LastNameValue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LastNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LastNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LastNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 89</value>
+  </data>
+  <data name="LastNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 23</value>
+  </data>
+  <data name="LastNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="LastNameLabel.Text" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.Name" xml:space="preserve">
+    <value>LastNameLabel</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.Parent" xml:space="preserve">
+    <value>AddNewMemberBox</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FirstNameValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 37</value>
+  </data>
+  <data name="FirstNameValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 32</value>
+  </data>
+  <data name="FirstNameValue.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;FirstNameValue.Name" xml:space="preserve">
+    <value>FirstNameValue</value>
+  </data>
+  <data name="&gt;&gt;FirstNameValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FirstNameValue.Parent" xml:space="preserve">
+    <value>AddNewMemberBox</value>
+  </data>
+  <data name="&gt;&gt;FirstNameValue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="FirstNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FirstNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 40</value>
+  </data>
+  <data name="FirstNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="FirstNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="FirstNameLabel.Text" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.Name" xml:space="preserve">
+    <value>FirstNameLabel</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.Parent" xml:space="preserve">
+    <value>AddNewMemberBox</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="AddNewMemberBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 287</value>
+  </data>
+  <data name="AddNewMemberBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 290</value>
+  </data>
+  <data name="AddNewMemberBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="AddNewMemberBox.Text" xml:space="preserve">
+    <value>Add New Member</value>
+  </data>
+  <data name="&gt;&gt;AddNewMemberBox.Name" xml:space="preserve">
+    <value>AddNewMemberBox</value>
+  </data>
+  <data name="&gt;&gt;AddNewMemberBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddNewMemberBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddNewMemberBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TeamMembersListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="TeamMembersListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 89</value>
+  </data>
+  <data name="TeamMembersListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 485</value>
+  </data>
+  <data name="TeamMembersListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;TeamMembersListBox.Name" xml:space="preserve">
+    <value>TeamMembersListBox</value>
+  </data>
+  <data name="&gt;&gt;TeamMembersListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TeamMembersListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TeamMembersListBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RemoveSelectedButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="RemoveSelectedButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 15.75pt, style=Bold</value>
+  </data>
+  <data name="RemoveSelectedButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 324</value>
+  </data>
+  <data name="RemoveSelectedButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 59</value>
+  </data>
+  <data name="RemoveSelectedButton.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="RemoveSelectedButton.Text" xml:space="preserve">
+    <value>Remove Selected</value>
+  </data>
+  <data name="&gt;&gt;RemoveSelectedButton.Name" xml:space="preserve">
+    <value>RemoveSelectedButton</value>
+  </data>
+  <data name="&gt;&gt;RemoveSelectedButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RemoveSelectedButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RemoveSelectedButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CreateTeamButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CreateTeamButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 15.75pt, style=Bold</value>
+  </data>
+  <data name="CreateTeamButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 607</value>
+  </data>
+  <data name="CreateTeamButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 56</value>
+  </data>
+  <data name="CreateTeamButton.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="CreateTeamButton.Text" xml:space="preserve">
+    <value>Create Team</value>
+  </data>
+  <data name="&gt;&gt;CreateTeamButton.Name" xml:space="preserve">
+    <value>CreateTeamButton</value>
+  </data>
+  <data name="&gt;&gt;CreateTeamButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateTeamButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateTeamButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 23</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>880, 690</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 15.75pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Create Team</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CreateTeamForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
